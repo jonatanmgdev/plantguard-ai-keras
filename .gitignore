@@ -1,2 +1,3 @@
 /venv
-/data
+/data/dataset/train
+/data/dataset/val

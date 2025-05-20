@@ -71,6 +71,7 @@ Esto hará lo siguiente:
 Durante el entrenamiento (train.py), se imprime:
 - Matriz de Confusión
 - Reporte de Clasificación (Precision, Recall, F1-Score) para:
+```plaintext
 Tomato___Bacterial_spot - Tomate – Mancha bacteriana
 Tomato___Early_blight -	Tomate – Tizón temprano
 Tomato___Late_blight - Tomate – Tizón tardío
@@ -81,7 +82,7 @@ Tomato___Target_Spot - Tomate – Mancha diana
 Tomato___Tomato_Yellow_Leaf_Curl_Virus	Tomate – Virus del rizado amarillo de la hoja de tomate
 Tomato___Tomato_mosaic_virus - Tomate – Virus del mosaico del tomate
 Tomato___healthy - Tomate – Planta sana
-
+```
 
 ##  🔍 Predicción
 ```bash
