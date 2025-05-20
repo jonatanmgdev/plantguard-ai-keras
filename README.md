@@ -1,4 +1,4 @@
-# PlantGuardAI 🌿 - Clasificación de Enfermedades en Hojas de Tomate
+# PlantGuardAI 🌿 - Clasificación de Enfermedades en Hojas de Tomate - KERAS VERSION
 
 Este proyecto implementa un modelo de Deep Learning para la **detección multiclase** a partir de imágenes de hojas, utilizando una arquitectura preentrenada como `DenseNet121`.
 
@@ -103,6 +103,12 @@ El modelo alcanza una **precisión del 94%** en el conjunto de validación, con 
 ```
 
 La matriz de confusión y el reporte completo se generan automáticamente tras el entrenamiento.
+
+
+## 📈 Interfaz Web con Streamlit
+Este proyecto incluye una aplicación web interactiva para la clasificación de enfermedades en hojas de tomate usando Streamlit.
+- Carga de imagen: Permite subir imágenes en formato JPG, JPEG o PNG de hojas de tomate.
+- Procesa la imagen y utiliza el modelo best_plantGuardAI_model.keras para predecir la enfermedad presente.
 
 ## 🧑‍💻 Autor
 Jonatan Montesdeoca González
