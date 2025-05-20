@@ -33,9 +33,12 @@ plantGuard-AI/
 ├── model/
 │   └── best_plantGuardAI_model.keras
 │
-├── train.py          # Entrenamiento del modelo
-├── predict.py        # Predicciones sobre el set de prueba
-└── README.md         # Este archivo
+├── src/
+│   ├── app.py              # Interfaz Web
+│   ├── train.py            # Entrenamiento del modelo
+│   ├── predict.py          # Predicciones sobre el set de prueba
+│── README.md               # Este archivo
+└── requirements.tzt        # Archivo con las dependencias
 ```
 
 ## 🚀 Requisitos
